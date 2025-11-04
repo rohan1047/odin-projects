@@ -1,0 +1,228 @@
+/* ====== GLOBAL STYLES ====== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+  background-color: #f9fafb;
+}
+
+/* ====== HEADER ====== */
+header {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 1rem 2rem;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #6366f1;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #a5b4fc;
+}
+
+/* ====== HERO SECTION ====== */
+.hero {
+  background-color: #e0e7ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.hero-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-heading {
+  font-size: 2.8rem;
+  font-weight: 900;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  font-size: 1.2rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+.sign-up-button {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sign-up-button:hover {
+  background-color: #4f46e5;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 300px;
+  background-color: #c7d2fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  height: 250px;
+}
+
+.placeholder-image {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+/* ====== FEATURES SECTION ====== */
+.features {
+  background-color: white;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.features h2 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 2rem;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  flex: 1;
+  min-width: 220px;
+  background-color: #f3f4f6;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-image {
+  height: 150px;
+  background-color: #c7d2fe;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  color: #475569;
+  font-size: 1rem;
+}
+
+/* ====== TESTIMONIAL ====== */
+.testimonial {
+  background-color: #f3f4f6;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.testimonial-content {
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #374151;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+
+.testimonial-author {
+  color: #1e293b;
+  font-weight: 500;
+}
+
+/* ====== CALL TO ACTION ====== */
+.cta-banner {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+}
+
+.cta-wrapper {
+  background-color: #6366f1;
+  color: white;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.cta-content h5 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.cta-content p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.cta-button {
+  background-color: white;
+  color: #6366f1;
+  font-weight: 600;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e0e7ff;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+}
