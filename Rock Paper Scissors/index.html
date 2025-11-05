@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rock Paper Scissors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f1f1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      margin-bottom: 1rem;
+    }
+    .choices {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #results {
+      margin-top: 1rem;
+      text-align: center;
+    }
+    #replay {
+      margin-top: 20px;
+      background-color: #28a745;
+      display: none;
+    }
+    #replay:hover {
+      background-color: #1e7e34;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+
+  <div class="choices">
+    <button id="rock">🪨 Rock</button>
+    <button id="paper">📄 Paper</button>
+    <button id="scissors">✂️ Scissors</button>
+  </div>
+
+  <div id="results">
+    <p id="roundResult"></p>
+    <p id="score">You: 0 | Computer: 0</p>
+    <p id="finalResult"></p>
+  </div>
+  
+  <button id="replay">🔁 Play Again</button>
+  <script src="script.js"></script>
+</body>
+</html>
