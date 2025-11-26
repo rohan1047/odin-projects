@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  border: 3px solid #333;
+  background: white;
+}
+
+.square {
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+button.active {
+  background: #ff9900;
+}
